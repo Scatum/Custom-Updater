@@ -41,12 +41,12 @@ class UpdaterActivity : AppCompatActivity() {
         setContentView(view)
 
         if (checkRunTimePermission()) {
-            openUpdaterSragment()
+            openUpdaterFragment()
         }
 
     }
 
-    private fun openUpdaterSragment() {
+    private fun openUpdaterFragment() {
         val fragmentManager = supportFragmentManager
         fragmentManager?.beginTransaction()?.replace(R.id.updater_screen_root_view, UpdaterFragment.newInstance())?.commitNow()
 
@@ -95,7 +95,7 @@ class UpdaterActivity : AppCompatActivity() {
         when (requestCode) {
             MY_PERMISSION_REQUEST_CODE -> {
                 if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    openUpdaterSragment()
+                    openUpdaterFragment()
                 } else {
                     Toast.makeText(this, "You do not have Storage Permission", Toast.LENGTH_SHORT).show()
                 }
