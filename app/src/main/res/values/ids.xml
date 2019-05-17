@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Updater IDS-->
+    <item name="updater_screen_root_view" type="id" />
+    <item name="update_screen_current_version_name" type="id" />
+    <item name="update_screen_progressbar_id" type="id" />
+    <item name="update_screen_progressbar_layout_id" type="id" />
+    <item name="update_screen_progressbar_updateStatusText_id" type="id" />
+    <item name="updater_button" type="id" />
+</resources>

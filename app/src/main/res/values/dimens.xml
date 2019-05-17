@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Updater-->
+    <dimen name="updater_14dp">14dp</dimen>
+    <dimen name="updater_10dp">10dp</dimen>
+    <dimen name="updater_15dp">15dp</dimen>
+    <dimen name="updater_44dp">44dp</dimen>
+    <dimen name="updater_80dp">40dp</dimen>
+    <dimen name="updater_32dp">32dp</dimen>
+    <dimen name="updater_18dp">18dp</dimen>
+    <dimen name="updater_16dp">16dp</dimen>
+    <dimen name="updater_42dp">42dp</dimen>
+</resources>
